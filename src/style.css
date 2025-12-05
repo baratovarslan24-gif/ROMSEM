@@ -18,3 +18,51 @@
 .sidebar__link:hover {
   color: #ff9846;
 }
+.select__option {
+  background-image: url(../public/icons/select.svg);
+  background-repeat: no-repeat;
+  background-position: 9px 15px;
+}
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper select {
+  appearance: none;
+  padding-right: 80px;
+}
+
+.select-wrapper::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-70%) rotate(45deg);
+  border: solid #f46d40;
+  border-width: 0 2px 2px 0;
+  padding: 4px;
+  pointer-events: none;
+}
+.select-wrapp {
+  position: relative;
+}
+.select-wrapp select {
+  appearance: none;
+  padding-right: 80px;
+}
+
+.select-wrapp::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  transform: translateY(0%) rotate(45deg);
+  border: solid #f46d40;
+  border-width: 0 2px 2px 0;
+  padding: 4px;
+  pointer-events: none;
+}
