@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>romsem</title>
-
+    <title>Products card</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -400,282 +399,399 @@
       </div>
     </aside>
     <main>
-      <section class="pt-5 px-[15px] bg-[#f2f2f2] md:hidden">
-        <div class="grid grid-cols-2 grid-flow-row gap-2.5">
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/pizza.jpg"
-              alt="pizza"
-          /></a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/sets.jpg"
-              alt="sets"
-          /></a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/wok.jpg"
-              alt="wok"
-          /></a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/rolls.jpg"
-              alt="rolls"
-          /></a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/shushi.jpg"
-              alt="sushi"
-          /></a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/soup.jpg"
-              alt="soup"
-            />
-            <img class="-mt-36 ml-24" src="./public/image/soon.svg" alt="" />
-          </a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/salad.jpg"
-              alt="salad"
-            />
-            <img class="-mt-36 ml-24" src="./public/image/soon.svg" alt="" />
-          </a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/drinks.jpg"
-              alt="drinks"
-          /></a>
-          <a class="col-span-2" href="./products.html"
-            ><img
-              class="w-[330px] h-[146px]"
-              src="/public/image/combo.jpg"
-              alt="combo"
-          /></a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/eel.jpg"
-              alt="eel"
-          /></a>
-          <a class="col-span-1" href="./products.html"
-            ><img
-              class="w-[162px] h-[157px]"
-              src="/public/image/corn-dog.jpg"
-              alt="corn-dog"
-          /></a>
-          <a class="col-span-2" href="./products.html"
-            ><img
-              class="w-[330px] h-[146px]"
-              src="/public/image/chicken.jpg"
-              alt="chicken"
-          /></a>
-          <a class="col-span-2" href="./products.html"
-            ><img
-              class="w-[330px] h-[140px]"
-              src="/public/image/prom.jpg"
-              alt="promotions"
-          /></a>
-        </div>
-      </section>
-      <section
-        class="hidden pt-4 pl-8 pr-20 pb-14 bg-[#f2f2f2] ml-60 mr-60 md:block"
-      >
+      <section class="px-[15px] bg-[#f2f2f2] md:hidden">
         <div>
-          <div
-            id="indicators-carousel"
-            class="relative w-full"
-            data-carousel="static"
+          <div class="flex py-[15px] items-center">
+            <span class="mr-2.5">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="#FF9846" />
+                <path
+                  d="M11.75 5.75L7.25 10.25L11.75 14.75"
+                  stroke="#F2F2F2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <p class="font-normal text-lg text-black mr-[154px]">Назад</p>
+            <p class="font-normal text-lg text-black">Вперед</p>
+            <span class="ml-2.5">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="#FF9846" />
+                <path
+                  d="M8 6L12.5 10.5L8 15"
+                  stroke="#F2F2F2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div
+          class="px-2.5 pb-5 bg-white border border-[#f2f2f2] rounded-[15px]"
+        >
+          <img
+            class="w-[310px] h-auto"
+            src="/public/image/md-product-8.jpg"
+            alt="filadelf and eel set"
+          />
+          <h2
+            class="font-medium text-2xl text-left w-[180px] ml-1 text-black mb-2.5"
           >
-            <!-- Carousel wrapper -->
-            <div
-              class="relative h-56 overflow-hidden rounded-base mb-12 md:h-96"
+            Филадельфия и лосось сет
+          </h2>
+          <p class="font-light text-lg text-[#FF9846] ml-1 mb-4">
+            1260 грамм 36 кусочек
+          </p>
+          <div class="flex flex-row items-center mb-[30px]">
+            <p class="font-bold text-2xl text-black ml-1 mr-2">1150 СОМ</p>
+            <a
+              class="py-[5px] px-14 bg-[#F46D40] border border-[#F46D40] rounded-[5px] font-medium text-2xl text-[#F2F2F2] text-center"
+              href="/card.html"
+              >Хочу!</a
             >
-              <!-- Item 1 -->
-              <div class="duration-700 ease-in-out" data-carousel-item="active">
-                <a href="/card.html">
-                  <img
-                    src="/public/image/slider-item.jpg"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    alt="..."
+          </div>
+          <div>
+            <h3 class="font-medium text-2xl text-black text-center mb-5">
+              Состав сета
+            </h3>
+            <div>
+              <span class="absolute mt-10">
+                <svg
+                  width="38"
+                  height="38"
+                  viewBox="0 0 38 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="19"
+                    cy="19"
+                    r="19"
+                    transform="rotate(90 19 19)"
+                    fill="#111111"
                   />
-                </a>
-              </div>
-              <!-- Item 2 -->
-              <div class="duration-700 ease-in-out" data-carousel-item>
-                <a href="/card.html">
-                  <img
-                    src="/public/image/slider-item.jpg"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    alt="..."
+                  <path
+                    d="M22 9L15 18L22 27"
+                    stroke="#F2F2F2"
+                    stroke-linecap="round"
                   />
-                </a>
-              </div>
-              <!-- Item 3 -->
-              <div class="duration-700 ease-in-out" data-carousel-item>
-                <a href="/card.html"
-                  ><img
-                    src="/public/image/slider-item.jpg"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    alt="..."
-                /></a>
-              </div>
-              <!-- Item 4 -->
-              <div class="duration-700 ease-in-out" data-carousel-item>
-                <a href="/card.html">
+                </svg>
+              </span>
+              <div class="relative flex justify-center gap-2.5">
+                <div class="flex flex-col items-center">
                   <img
-                    src="/public/image/slider-item.jpg"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    alt="..."
+                    class="w-[66px] h-[66px] mb-2.5"
+                    src="/public/image/card-1.svg"
+                    alt="card-1"
                   />
-                </a>
-              </div>
-              <!-- Item 5 -->
-              <div class="duration-700 ease-in-out" data-carousel-item>
-                <a href="/card.html">
+                  <p class="font-medium text-sm text-black mb-5">Филадельфия</p>
+                  <p class="font-bold text-lg text-black">140 СОМ</p>
+                </div>
+                <div class="flex flex-col items-center">
                   <img
-                    src="/public/image/slider-item.jpg"
-                    class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    alt="..."
+                    class="w-[66px] h-[66px] mb-2.5"
+                    src="/public/image/card-1.svg"
+                    alt="card-1"
                   />
-                </a>
+                  <p class="font-medium text-sm text-black mb-5">Филадельфия</p>
+                  <p class="font-bold text-lg text-black">140 СОМ</p>
+                </div>
               </div>
-            </div>
-            <!-- Slider indicators -->
-            <div
-              class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse -bottom-3 left-1/2"
-            >
-              <button
-                type="button"
-                class="w-3 h-3 rounded-base"
-                aria-current="true"
-                aria-label="Slide 1"
-                data-carousel-slide-to="0"
-              >
+              <span class="absolute -mt-[104px] ml-[270px]">
                 <svg
-                  width="10"
-                  height="10"
-                  viewBox="0 0 10 10"
+                  width="38"
+                  height="38"
+                  viewBox="0 0 38 38"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="5" cy="5" r="5" fill="#FF9846" />
+                  <circle
+                    cx="19"
+                    cy="19"
+                    r="19"
+                    transform="matrix(4.37114e-08 1 1 -4.37114e-08 0 0)"
+                    fill="#111111"
+                  />
+                  <path
+                    d="M16 9L23 18L16 27"
+                    stroke="#F2F2F2"
+                    stroke-linecap="round"
+                  />
                 </svg>
-              </button>
-              <button
-                type="button"
-                class="w-3 h-3 rounded-base"
-                aria-current="false"
-                aria-label="Slide 2"
-                data-carousel-slide-to="1"
-              >
-                <svg
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#A4ACAD" />
-                </svg>
-              </button>
-              <button
-                type="button"
-                class="w-3 h-3 rounded-base"
-                aria-current="false"
-                aria-label="Slide 3"
-                data-carousel-slide-to="2"
-              >
-                <svg
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#A4ACAD" />
-                </svg>
-              </button>
-              <button
-                type="button"
-                class="w-3 h-3 rounded-base"
-                aria-current="false"
-                aria-label="Slide 4"
-                data-carousel-slide-to="3"
-              >
-                <svg
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#A4ACAD" />
-                </svg>
-              </button>
-              <button
-                type="button"
-                class="w-3 h-3 rounded-base"
-                aria-current="false"
-                aria-label="Slide 5"
-                data-carousel-slide-to="4"
-              >
-                <svg
-                  width="8"
-                  height="8"
-                  viewBox="0 0 8 8"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="4" cy="4" r="4" fill="#A4ACAD" />
-                </svg>
-              </button>
+              </span>
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-4 grid-flow-row gap-7 mb-12">
-          <a class="col-span-2" href="./products.html">
-            <img
-              class="w-[430px] h-40"
-              src="/public/image/chicken.jpg"
-              alt="chicken"
-            />
-          </a>
-          <a class="col-span-1" href="./products.html">
-            <img class="w-[214px] h-40" src="/public/image/eel.jpg" alt="eel" />
-          </a>
-          <a class="col-span-1" href="./products.html">
-            <img
-              class="w-[214px] h-40"
-              src="/public/image/corn-dog.jpg"
-              alt="corn-dog"
-            />
-          </a>
-          <a class="col-span-2" href="./products.html">
-            <img
-              class="w-[430px] h-40"
-              src="/public/image/md-pizza.jpg"
-              alt="pizza"
-            />
-          </a>
-          <a class="col-span-2" href="./products.html">
-            <img
-              class="w-[450px] h-40"
-              src="/public/image/prom.jpg"
-              alt="prom"
-            />
-          </a>
+        <div>
+          <h3
+            class="font-medium text-lg text-black text-center mb-[30px] mt-[30px]"
+          >
+            Рекомендуем к этому товару
+          </h3>
+          <div>
+            <span class="absolute mt-12 ml-3">
+              <svg
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="19"
+                  cy="19"
+                  r="19"
+                  transform="rotate(90 19 19)"
+                  fill="#111111"
+                />
+                <path
+                  d="M22 9L15 18L22 27"
+                  stroke="#F2F2F2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <div class="relative flex justify-center gap-[15px]">
+              <div class="flex flex-col items-center">
+                <img
+                  class="w-[66px] h-[66px] mb-2.5"
+                  src="/public/image/card-2.svg"
+                  alt="card-1"
+                />
+                <p class="font-medium text-sm text-black mb-5">Банзай</p>
+                <div class="flex">
+                  <p class="font-bold text-lg text-black mr-2.5">170 СОМ</p>
+                  <a href="#">
+                    <svg
+                      width="26"
+                      height="26"
+                      viewBox="0 0 26 26"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="13"
+                        cy="13"
+                        rx="13"
+                        ry="13"
+                        transform="rotate(90 13 13)"
+                        fill="#F46D40"
+                      />
+                      <path
+                        d="M13 5.84998V19.5"
+                        stroke="#F2F2F2"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M6.5 12.35L20.15 12.35"
+                        stroke="#F2F2F2"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  class="w-[66px] h-[66px] mb-2.5"
+                  src="/public/image/card-2.svg"
+                  alt="card-1"
+                />
+                <p class="font-medium text-sm text-black mb-5">Банзай</p>
+                <div class="flex">
+                  <p class="font-bold text-lg text-black mr-2.5">170 СОМ</p>
+                  <a href="#">
+                    <svg
+                      width="26"
+                      height="26"
+                      viewBox="0 0 26 26"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <ellipse
+                        cx="13"
+                        cy="13"
+                        rx="13"
+                        ry="13"
+                        transform="rotate(90 13 13)"
+                        fill="#F46D40"
+                      />
+                      <path
+                        d="M13 5.84998V19.5"
+                        stroke="#F2F2F2"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        d="M6.5 12.35L20.15 12.35"
+                        stroke="#F2F2F2"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <span class="absolute -mt-24 ml-[280px]">
+              <svg
+                width="38"
+                height="38"
+                viewBox="0 0 38 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="19"
+                  cy="19"
+                  r="19"
+                  transform="matrix(4.37114e-08 1 1 -4.37114e-08 0 0)"
+                  fill="#111111"
+                />
+                <path
+                  d="M16 9L23 18L16 27"
+                  stroke="#F2F2F2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
+      </section>
+      <section
+        class="hidden pt-[52px] pb-[30px] bg-[#f2f2f2] ml-60 mr-60 md:block"
+      >
+        <div class="mb-[52px]">
+          <div class="flex py-[15px] items-center mx-10">
+            <span class="mr-2.5">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="#FF9846" />
+                <path
+                  d="M11.75 5.75L7.25 10.25L11.75 14.75"
+                  stroke="#F2F2F2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <p class="font-normal text-lg text-black mr-[570px]">Назад</p>
+            <p class="font-normal text-lg text-black">Вперед</p>
+            <span class="ml-2.5">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="10" cy="10" r="10" fill="#FF9846" />
+                <path
+                  d="M8 6L12.5 10.5L8 15"
+                  stroke="#F2F2F2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="flex bg-white pb-12 mb-[30px]">
+          <div>
+            <img
+              class="w-auto h-auto mr-[30px]"
+              src="/public/image/desk-card.jpg"
+              alt="card"
+            />
+          </div>
+          <div>
+            <h3 class="font-medium text-4xl text-black mt-5 mb-2.5">
+              Филадельфия и лосось сет
+            </h3>
+            <p class="font-light text-lg text-[#FF9846] mb-[30px]">290 грамм</p>
+            <div class="flex items-center mb-5">
+              <p class="font-bold text-2xl text-black mr-[30px]">1150 СОМ</p>
+              <div class="flex items-center gap-5">
+                <a href="#">
+                  <svg
+                    width="23"
+                    height="2"
+                    viewBox="0 0 23 2"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L22 0.999999"
+                      stroke="#111111"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </a>
+                <p class="font-bold text-4xl text-black">10</p>
+                <a href="#">
+                  <svg
+                    width="40"
+                    height="40"
+                    viewBox="0 0 40 40"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <ellipse
+                      cx="20"
+                      cy="20"
+                      rx="20"
+                      ry="20"
+                      transform="rotate(90 20 20)"
+                      fill="#F46D40"
+                    />
+                    <path
+                      d="M20 9V30"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M10 19L31 19"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <p class="font-medium text-lg text-[#111111] mb-1">Состав</p>
+            <p class="font-light text-lg text-[#111111] w-[300px] mb-4">
+              Лосось, сыр "Филадельфия", огурец, авокадо
+            </p>
+            <a
+              class="font-medium text-2xl text-center text-[#f2f2f2] py-1 px-16 bg-[#F46D40] border border-[#F46D40] rounded-[5px]"
+              href="/bucket.html"
+              >Хочу!</a
+            >
+          </div>
+        </div>
+        <!-- 1 -->
         <div class="relative">
-          <span class="absolute mt-[200px] -ml-8">
+          <span class="absolute mt-40 ml-6">
             <svg
               width="60"
               height="60"
@@ -698,87 +814,136 @@
               />
             </svg>
           </span>
-          <div class="flex flex-row mb-7 gap-7">
-            <h2 class="font-medium text-2xl text-black">
-              <a href="#"></a>Новинки
-            </h2>
-            <p class="font-medium text-2xl text-[#5d6163] underline">
-              <a href="#">Популярное</a>
-            </p>
-          </div>
-          <div class="flex flex-row gap-10">
-            <div class="px-[18px] pb-2.5 w-[290px] h-auto bg-white">
+          <h2 class="font-medium text-2xl text-black text-center mb-5">
+            Рекомендуем к этому товару
+          </h2>
+          <div class="flex justify-center gap-[50px]">
+            <div class="flex flex-col items-center">
               <img
-                class="w-auto h-auto mb-7"
-                src="/public/image/popular-1.jpg"
-                alt="salomon set"
+                class="w-auto h-auto mb-2.5"
+                src="/public/image/desk-card-1.svg"
+                alt="card-1"
               />
-              <h2 class="font-medium text-[20px] text-black mb-7">
-                Саломон сет
-              </h2>
-              <p
-                class="font-normal text-sm text-[#5d6163] border-b border-b[#A4ACAD] pb-5 mb-2.5"
-              >
-                1050 грамм, 30 кусочков
-              </p>
+              <p class="font-medium text-lg text-black mb-2.5">Филадельфия</p>
+              <div class="flex">
+                <p class="font-bold text-2xl text-black mr-2.5">140 СОМ</p>
+                <a href="#">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <ellipse
+                      cx="13"
+                      cy="13"
+                      rx="13"
+                      ry="13"
+                      transform="rotate(90 13 13)"
+                      fill="#F46D40"
+                    />
+                    <path
+                      d="M13 5.84998V19.5"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M6.5 12.35L20.15 12.35"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <img
+                class="w-auto h-auto mb-2.5"
+                src="/public/image/desk-card-2.svg"
+                alt="card-1"
+              />
+              <p class="font-medium text-lg text-black mb-2.5">Банзай</p>
+              <div class="flex">
+                <p class="font-bold text-2xl text-black mr-2.5">170 СОМ</p>
+                <a href="#">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <ellipse
+                      cx="13"
+                      cy="13"
+                      rx="13"
+                      ry="13"
+                      transform="rotate(90 13 13)"
+                      fill="#F46D40"
+                    />
+                    <path
+                      d="M13 5.84998V19.5"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M6.5 12.35L20.15 12.35"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex flex-col items-center">
+              <img
+                class="w-auto h-auto mb-2.5"
+                src="/public/image/desk-card-3.svg"
+                alt="card-1"
+              />
+              <p class="font-medium text-lg text-black mb-2.5">Аригато</p>
+              <div class="flex">
+                <p class="font-bold text-2xl text-black mr-2.5">180 СОМ</p>
+                <a href="#">
+                  <svg
+                    width="26"
+                    height="26"
+                    viewBox="0 0 26 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <ellipse
+                      cx="13"
+                      cy="13"
+                      rx="13"
+                      ry="13"
+                      transform="rotate(90 13 13)"
+                      fill="#F46D40"
+                    />
+                    <path
+                      d="M13 5.84998V19.5"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M6.5 12.35L20.15 12.35"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-              <div class="flex flex-row gap-1 items-center">
-                <p class="font-medium text-lg text-black">1500 СОМ</p>
-                <a
-                  class="w-[100px] h-10 py-[5px] px-7 bg-[#F46D40] border border-[#F46D40] rounded-[5px] font-medium text-lg text-[#F2F2F2] text-center"
-                  href="/card.html"
-                  >Хочу!</a
-                >
-              </div>
-            </div>
-            <div class="px-[18px] pb-2.5 w-[290px] h-auto bg-white">
-              <img
-                class="w-auto h-auto mb-3.5"
-                src="/public/image/popular-2.jpg"
-                alt="filadelf and eel set"
-              />
-              <h2 class="font-medium text-[20px] text-black mb-3.5">
-                Филадельфия и лосось сет
-              </h2>
-              <p
-                class="font-normal text-sm text-[#5d6163] border-b border-b[#A4ACAD] pb-5 mb-2.5"
-              >
-                1260 грамм, 36 кусочков
-              </p>
-              <div class="flex flex-row gap-1 items-center">
-                <p class="font-medium text-lg text-black">1150 СОМ</p>
-                <a
-                  class="w-[100px] h-10 py-[5px] px-7 bg-[#F46D40] border border-[#F46D40] rounded-[5px] font-medium text-lg text-[#F2F2F2] text-center"
-                  href="/card.html"
-                  >Хочу!</a
-                >
-              </div>
-            </div>
-            <div class="px-[18px] pb-2.5 w-[290px] h-auto bg-white">
-              <img
-                class="w-auto h-auto mb-3.5"
-                src="/public/image/popular-3.jpg"
-                alt="big filadelf"
-              />
-              <h2 class="font-medium text-[20px] text-black mb-3.5">
-                Самая большая Филадельфия
-              </h2>
-              <p
-                class="font-normal text-sm text-[#5d6163] border-b border-b[#A4ACAD] pb-5 mb-2.5"
-              >
-                2050 грамм, 45 кусочков
-              </p>
-              <div class="flex flex-row gap-1 items-center">
-                <p class="font-medium text-lg text-black">2100 СОМ</p>
-                <a
-                  class="w-[100px] h-10 py-[5px] px-7 bg-[#F46D40] border border-[#F46D40] rounded-[5px] font-medium text-lg text-[#F2F2F2] text-center"
-                  href="/card.html"
-                  >Хочу!</a
-                >
-              </div>
-            </div>
-          </div>
-          <span class="absolute -mt-[200px] ml-[730px]">
+          <span class="absolute -mt-44 ml-[780px]">
             <svg
               width="60"
               height="60"
@@ -897,55 +1062,9 @@
           </nav>
         </div>
       </section>
+
       <section
-        class="hidden pl-8 pr-16 pb-14 bg-[#f2f2f2] ml-60 mr-60 md:block border-b border-b-[#A4ACAD]"
-      >
-        <h2 class="font-bold text-2xl text-[#5d6163] mb-2.5">
-          Заказать суши в Бишкеке
-        </h2>
-        <p class="font-normal text-lg text-[#5d6163] mb-2.5">
-          Ресторан “Суши и Лапша” предлагаем своим клиентам самые вкусные суши с
-          доставкой на дом, приготовленные по классическим и адаптированным к
-          европейской аудитории рецептам, а также собственным наработкам наших
-          поваров. Мы ценим время наших клиентов, поэтому вы можете заказать
-          суши в Харькове с доставкой на дом или в офис.
-        </p>
-        <p class="font-normal text-lg text-[#5d6163] mb-2.5">
-          В нашем меню более 20 видов суши:
-        </p>
-        <ul class="font-normal text-lg text-[#5d6163] mb-2.5 list-disc pl-7">
-          <li>Классические с сырым лососем, тунцом, окунем.</li>
-          <li>Экзотические с тигровой креветкой, морским гребешком.</li>
-          <li>Пикантные с копченым лососем, угрем.</li>
-        </ul>
-        <p class="font-normal text-lg text-[#5d6163] mb-10">
-          В меню также представлены гунканы: с начинкой из красной икры и
-          тобико, а также феликсы, где японский майонез сочетается с рыбой,
-          морепродуктами, угрем. Любители острых блюд могут купить суши с соусом
-          спайси. Популярные начинки — копченая курица, снежный краб, креветки,
-          гребешки, тунец, лосось и окунь.
-        </p>
-        <div class="flex flex-row gap-2.5 items-center justify-center">
-          <a class="font-normal text-2xl text-[#F46D40]" href="#">Подробнее</a>
-          <span>
-            <svg
-              width="16"
-              height="9"
-              viewBox="0 0 16 9"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M15.5 0.5L8 7.5L0.5 0.499999"
-                stroke="#F46D40"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-        </div>
-      </section>
-      <section
-        class="hidden pt-8 pl-8 pr-16 pb-7 mb-8 bg-[#f2f2f2] ml-60 mr-60 md:block"
+        class="hidden pt-8 pl-8 pr-16 pb-7 mb-8 bg-[#f2f2f2] ml-60 mr-60 md:block border-t border-t-[#A4ACAD]"
       >
         <div class="flex">
           <div>
