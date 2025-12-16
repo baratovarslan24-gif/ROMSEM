@@ -16,7 +16,10 @@
   <body>
     <header class="py-3 px-7 border-b border-[#A4ACAD] md:hidden">
       <div class="flex flex-row justify-between items-center">
-        <img src="/image/logo.svg" alt="logo" />
+        <a href="/index.html">
+          <img src="/image/logo.svg" alt="logo" />
+        </a>
+
         <div>
           <h2 class="font-medium text-[12px] text-center text-[#111111]">
             Наш телефон
@@ -106,11 +109,14 @@
       aria-label="Sidebar"
     >
       <div class="h-full px-11 py-4 overflow-y-auto bg-neutral-primary-soft">
-        <img
-          class="pb-[30px] mb-[30px] border-b border-[#A4ACAD]"
-          src="/image/desk-logo.svg"
-          alt="logo"
-        />
+        <a href="/index.html">
+          <img
+            class="pb-[30px] mb-[30px] border-b border-[#A4ACAD]"
+            src="/image/desk-logo.svg"
+            alt="logo"
+          />
+        </a>
+
         <ul class="space-y-2 font-normal text-2xl text-black">
           <li>
             <a
@@ -304,7 +310,7 @@
             class="flex justify-between gap-2.5 font-normal text-lg text-[#111111]"
           >
             <a class="header__link" href="/reviews.html">Отзывы</a>
-            <a class="header__link" href="#">Доставка и оплата</a>
+            <a class="header__link" href="/order.html">Доставка и оплата</a>
           </div>
         </div>
         <div class="ml-14 mt-9">
@@ -327,26 +333,26 @@
     </header>
     <aside
       id="default-sidebar"
-      class="fixed top-0 right-0 z-40 w-[270px] h-[380px] transition-transform -translate-x-full sm:translate-x-0 mt-14 bg-[#f2f2f2] hidden md:block"
+      class="fixed top-0 right-2.5 z-40 w-[260px] h-auto transition-transform -translate-x-full sm:translate-x-0 mt-14 hidden md:block"
       aria-label="Sidebar"
     >
-      <div class="h-full py-3 overflow-y-auto bg-neutral-primary-soft">
-        <div class="mb-5">
+      <div class="h-full py-3 overflow-y-auto bg-neutral-primary-soft hidden">
+        <div class="mb-5 pt-3 bg-[#f2f2f2] border-[#f2f2f2] rounded-[5px]">
           <h2 class="font-medium text-2xl text-black text-center mb-2.5">
             Ваша корзина пуста.
           </h2>
           <p
-            class="font-normal text-lg text-[#5d6163] text-center tracking-tight mb-6"
+            class="font-normal text-lg text-[#5d6163] text-center tracking-tighter mb-6"
           >
             Добавьте же скорее что-нибудь!
           </p>
           <a
-            class="font-normal text-sm text-[#f2f2f2] text-center w-[270px] h-10 bg-[#FF9846] py-3 px-7 border-[#FF9846] rounded-b-[5px]"
-            href="#"
+            class="font-normal text-sm text-[#f2f2f2] text-center bg-[#FF9846] py-3 px-[23px] border-[#FF9846] rounded-b-[5px]"
+            href="/order.html"
             >Бесплатная доставка от 800 СОМ</a
           >
         </div>
-        <div>
+        <div class="bg-[#f2f2f2] border-[#f2f2f2] rounded-[5px]">
           <a class="relative" href="#">
             <img class="w-full h-auto mb-9" src="/image/map.svg" alt="map" />
           </a>
@@ -395,6 +401,137 @@
           <p class="font-normal text-lg text-[#5d6163] text-center">
             И узнайте время доставки
           </p>
+        </div>
+      </div>
+      <div class="h-full pt-3 overflow-y-auto bg-neutral-primary-soft hidden">
+        <div class="mb-5 pt-3 bg-[#f2f2f2] border-[#f2f2f2] rounded-[5px]">
+          <h2 class="font-medium text-2xl text-black text-center mb-2.5">
+            Ваша корзина пуста.
+          </h2>
+          <p
+            class="font-normal text-lg text-[#5d6163] text-center tracking-tighter mb-6"
+          >
+            Добавьте же скорее что-нибудь!
+          </p>
+          <a
+            class="font-normal text-sm text-[#f2f2f2] text-center bg-[#FF9846] py-3 px-[23px] border-[#FF9846] rounded-b-[5px] mb-2.5"
+            href="/order.html"
+            >Бесплатная доставка от 800 СОМ</a
+          >
+        </div>
+        <div class="bg-white">
+          <p class="font-normal text-[12px] text-center text-[#5d6163] mb-1">
+            Введите адрес и нажмите enter
+          </p>
+          <p class="font-normal text-sm text-[#111111] ml-2.5 mb-1">
+            Ул. Пушкина д.20
+          </p>
+          <a
+            class="flex py-1 px-10 bg-[#FF9846] border-[#FF9846] rounded-b-[5px] mb-5"
+            href="/order.html"
+          >
+            <img class="mr-2.5" src="/public/icons/clock.svg" alt="clock" />
+            <p class="font-normal text-sm text-white">
+              60 минут <br />
+              Мин. заказ - 200 сом
+            </p>
+          </a>
+          <a href="#">
+            <img class="relative" src="/public/image/map.jpg" alt="map" />
+            <span class="absolute top-80 left-10">
+              <svg
+                width="94"
+                height="94"
+                viewBox="0 0 94 94"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M47 0C29.4094 0 15.0981 14.311 15.0981 31.9017C15.0981 38.9705 19.2598 49.7209 28.1953 65.7334C34.2927 76.6593 40.362 85.8879 40.6181 86.2766L45.0049 92.9259C45.4471 93.5965 46.1965 94 47 94C47.8035 94 48.5529 93.5965 48.9952 92.9259L53.3818 86.277C53.6354 85.8927 59.6605 76.7438 65.8047 65.7334C74.7402 49.7216 78.9019 38.9713 78.9019 31.9017C78.9019 14.311 64.5907 0 47 0ZM61.6304 63.4038C55.5716 74.2602 49.6417 83.2655 49.3918 83.6439L47 87.2693L44.609 83.6449C44.3578 83.2634 38.3824 74.1774 32.3697 63.4038C24.0812 48.5506 19.8786 37.9517 19.8786 31.9017C19.8786 16.947 32.0452 4.78048 47 4.78048C61.9549 4.78048 74.1214 16.947 74.1214 31.9017C74.1214 37.9525 69.9188 48.551 61.6304 63.4038Z"
+                  fill="#F46D40"
+                />
+                <path
+                  d="M47 14.0146C37.2469 14.0146 29.3123 21.9495 29.3123 31.7024C29.3123 41.4554 37.2469 49.3902 47 49.3902C56.7532 49.3902 64.6878 41.4554 64.6878 31.7024C64.6878 21.9495 56.7532 14.0146 47 14.0146ZM47 44.6097C39.8829 44.6097 34.0927 38.8196 34.0927 31.7024C34.0927 24.5853 39.8829 18.7951 47 18.7951C54.1174 18.7951 59.9074 24.5853 59.9074 31.7024C59.9074 38.8196 54.1174 44.6097 47 44.6097Z"
+                  fill="#F46D40"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="h-full pt-3 overflow-y-auto bg-neutral-primary-soft">
+        <div
+          class="py-2.5 px-20 bg-[#f2f2f2] border-[#f2f2f2] rounded-[5px] mb-5"
+        >
+          <h2 class="font-medium text-2xl text-black text-center">Корзина</h2>
+        </div>
+        <div class="flex gap-1.5 mb-56">
+          <img src="/public/image/bucket-img.jpg" alt="" />
+          <div>
+            <p class="font-normal text-lg text-black">Самая большая Фи...</p>
+            <div>
+              <div class="flex items-center">
+                <a href="#">
+                  <svg
+                    width="12"
+                    height="2"
+                    viewBox="0 0 12 2"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L11 1"
+                      stroke="#111111"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </a>
+                <p class="font-bold text-lg text-black mr-2.5 ml-2.5">10</p>
+                <a href="#">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <ellipse
+                      cx="9.64047"
+                      cy="9.64029"
+                      rx="9.64029"
+                      ry="9.64029"
+                      transform="rotate(90 9.64047 9.64029)"
+                      fill="#F46D40"
+                    />
+                    <path
+                      d="M9.64062 4.33813V14.4604"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M4.82031 9.15833L14.9426 9.15832"
+                      stroke="#F2F2F2"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </a>
+                <p class="font-bold text-lg text-black text-right ml-5">
+                  170 СОМ
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-3 items-center">
+          <p class="font-bold text-lg text-black">170 СОМ</p>
+          <a
+            class="font-normal text-lg text-center text-[#f2f2f2] py-1 px-4 bg-[#F46D40] border-[#F46D40] rounded-[5px]"
+            href="/order.html"
+            >Оформить заказ</a
+          >
         </div>
       </div>
     </aside>
@@ -458,7 +595,7 @@
             <p class="font-bold text-2xl text-black ml-1 mr-2">1150 СОМ</p>
             <a
               class="py-[5px] px-14 bg-[#F46D40] border border-[#F46D40] rounded-[5px] font-medium text-2xl text-[#F2F2F2] text-center"
-              href="/card.html"
+              href="/bucket.html"
               >Хочу!</a
             >
           </div>
@@ -573,7 +710,7 @@
                 <p class="font-medium text-sm text-black mb-5">Банзай</p>
                 <div class="flex">
                   <p class="font-bold text-lg text-black mr-2.5">170 СОМ</p>
-                  <a href="#">
+                  <a href="/bucket.html">
                     <svg
                       width="26"
                       height="26"
@@ -614,7 +751,7 @@
                 <p class="font-medium text-sm text-black mb-5">Банзай</p>
                 <div class="flex">
                   <p class="font-bold text-lg text-black mr-2.5">170 СОМ</p>
-                  <a href="#">
+                  <a href="/bucket.html">
                     <svg
                       width="26"
                       height="26"
@@ -673,7 +810,7 @@
         </div>
       </section>
       <section
-        class="hidden pt-[52px] pb-[30px] bg-[#f2f2f2] ml-60 mr-60 md:block"
+        class="hidden pt-[52px] pb-[30px] bg-[#f2f2f2] ml-60 mr-[270px] md:block"
       >
         <div class="mb-[52px]">
           <div class="flex py-[15px] items-center mx-10">
@@ -784,7 +921,7 @@
             </p>
             <a
               class="font-medium text-2xl text-center text-[#f2f2f2] py-1 px-16 bg-[#F46D40] border border-[#F46D40] rounded-[5px]"
-              href="/bucket.html"
+              href="#"
               >Хочу!</a
             >
           </div>
@@ -1024,7 +1161,7 @@
             class="flex justify-between gap-9 w-[226px] items-center mx-auto"
           >
             <div>
-              <a href="#">
+              <a href="/index.html">
                 <img
                   class="mx-auto mb-0.5"
                   src="/public/image/footer-menu.svg"
@@ -1036,7 +1173,7 @@
               </a>
             </div>
             <div>
-              <a href="#">
+              <a href="/bucket.html">
                 <img
                   class="mx-auto"
                   src="/public/image/footer-basket.svg"
@@ -1064,7 +1201,7 @@
       </section>
 
       <section
-        class="hidden pt-8 pl-8 pr-16 pb-7 mb-8 bg-[#f2f2f2] ml-60 mr-60 md:block border-t border-t-[#A4ACAD]"
+        class="hidden pt-8 pl-8 pr-16 pb-7 mb-8 bg-[#f2f2f2] ml-60 mr-[270px] md:block border-t border-t-[#A4ACAD]"
       >
         <div class="flex">
           <div>
