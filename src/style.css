@@ -66,3 +66,12 @@
   padding: 4px;
   pointer-events: none;
 }
+aside > div {
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+aside > div::-webkit-scrollbar {
+  display: none;
+}
