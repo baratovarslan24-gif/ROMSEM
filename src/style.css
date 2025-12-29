@@ -1,4 +1,4 @@
-@import "./tailwindcss";
+@import "tailwindcss";
 
 .header__link {
   transition: all 0.5s;
